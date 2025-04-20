@@ -32,7 +32,7 @@ export default function Page() {
                 Most devs spend <strong className="text-indigo-600">months</strong> wiring up voice, chat, and streaming logic.<br /><br />
               </p>
               <p className="text-gray-600 relative">
-                But <strong className="text-indigo-600">Good News</strong> for you, I spent that time so you don't have to.<br /><br />
+                But <strong className="text-indigo-600">Good News</strong> for you, I spent that time so you don&apos;t have to.<br /><br />
               </p>
               <p className="text-gray-600 relative">
                 This toolkit allow you to get your ideas flowing <strong className="text-indigo-600">NOW</strong>.<br />
@@ -59,7 +59,7 @@ export default function Page() {
           <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-3xl transform rotate-1 scale-105 -z-10"></div>
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-gray-100 space-y-5 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-bl from-indigo-100 to-transparent rounded-bl-full opacity-60"></div>
-            <h2 className="text-3xl font-bold text-gray-900">🚧 Let's Be Honest, You've Probably Tried Already</h2>
+            <h2 className="text-3xl font-bold text-gray-900">🚧 Let&apos;s Be Honest, You&apos;ve Probably Tried Already</h2>
             <div className="space-y-4 text-lg">
               <p className="text-gray-700">
                 You&apos;ve opened a Whisper demo and watched it break. You&apos;ve written a prompt that works once and forgets everything after. You&apos;ve spent hours tweaking UI state or stuck wondering how to send audio through a socket.
@@ -147,7 +147,7 @@ export default function Page() {
                 You control the keys. You control the domain. You control the vibe.
               </p>
               <p className="text-gray-700">
-                This toolkit is for builders who want to ship something real, without wasting weeks duct-taping together APIs and hoping it'll scale.
+                This toolkit is for builders who want to ship something real, without wasting weeks duct-taping together APIs and hoping it&apos;ll scale.
               </p>
               <p className="text-gray-700">
                 Whether you&apos;re creating a personal project or launching your own AI-powered product, <strong className="text-indigo-600">this gets you to launch fast.</strong>

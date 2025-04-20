@@ -149,7 +149,7 @@ export default function DocumentationPage() {
             <div className="bg-gray-900 text-gray-100 p-4 rounded-lg font-mono text-sm overflow-x-auto">
 {`{
   "name": "Mira",
-  "persona_prompt": "You're a compassionate journal companion...",
+  "persona_prompt": "You are a compassionate journal companion...",
   "voice": "nova",
   "memory_enabled": false📚
 }`}
