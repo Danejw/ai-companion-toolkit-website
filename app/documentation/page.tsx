@@ -167,7 +167,7 @@ export default function DocumentationPage() {
           <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-sm border border-gray-200">
             <ol className="list-decimal ml-5 space-y-5">
               <li className="text-gray-700">
-                Go to <a href="https://render.com" target="_blank" className="text-[#818cf8] hover:underline">render.com</a> and click "New +" → Web Service
+                Go to <a href="https://render.com" target="_blank" className="text-[#818cf8] hover:underline">render.com</a> and click &quot;New +&quot; → Web Service
               </li>
               <li className="text-gray-700">Connect your GitHub repo and select the <code className="bg-gray-100 px-2 py-1 rounded">ai-companion</code> repository</li>
               <li className="text-gray-700">
@@ -183,7 +183,7 @@ export default function DocumentationPage() {
                 Add environment variable:
                 <div className="bg-gray-900 text-gray-100 p-3 rounded-lg font-mono text-sm mt-2">OPENAI_API_KEY=your_openai_key_here</div>
               </li>
-              <li className="text-gray-700">Click "Deploy"</li>
+              <li className="text-gray-700">Click &quot;Deploy&quot;</li>
               <li className="text-gray-700">Copy your backend URL (e.g. <code className="bg-gray-100 px-2 py-1 rounded">https://ai-backend.onrender.com</code>)</li>
             </ol>
           </div>
@@ -211,7 +211,7 @@ export default function DocumentationPage() {
                 Add environment variable:
                 <div className="bg-gray-900 text-gray-100 p-3 rounded-lg font-mono text-sm mt-2">NEXT_PUBLIC_BACKEND_URL=https://ai-backend.onrender.com</div>
               </li>
-              <li className="text-gray-700">Click "Deploy"</li>
+              <li className="text-gray-700">Click &quot;Deploy&quot;</li>
             </ol>
             <div className="mt-6 bg-[#f0f9ff] border border-[#bae6fd] text-[#0c4a6e] p-4 rounded-lg">
               <p>Your frontend will now be live at something like <code className="bg-[#e0f2fe] px-2 py-1 rounded">https://your-companion.vercel.app</code></p>
@@ -255,7 +255,7 @@ export default function DocumentationPage() {
           <div className="bg-white/30 backdrop-blur-sm p-6 rounded-xl shadow-sm border border-gray-200 space-y-6">
             
             <div className="border-b border-gray-200/50 pb-4">
-              <h3 className="font-bold text-lg mb-2">My frontend can't connect to the backend.</h3>
+              <h3 className="font-bold text-lg mb-2">My frontend can&apos;t connect to the backend.</h3>
               <ul className="list-disc ml-6 space-y-1">
                 <li>Double check that <code className="bg-white/20 backdrop-blur-sm px-2 py-1 rounded">NEXT_PUBLIC_BACKEND_URL</code> in <code className="bg-white/20 backdrop-blur-sm px-2 py-1 rounded">.env.local</code> points to the correct Render URL</li>
                 <li>Make sure your backend is live and accessible (check Render logs)</li>
@@ -263,7 +263,7 @@ export default function DocumentationPage() {
             </div>
             
             <div className="border-b border-gray-200/50 pb-4">
-              <h3 className="font-bold text-lg mb-2 ">I'm getting a 401 or OpenAI error.</h3>
+              <h3 className="font-bold text-lg mb-2">I&apos;m getting a 401 or OpenAI error.</h3>
               <ul className="list-disc ml-6 space-y-1">
                 <li>Make sure you added your <code className="bg-white/20 backdrop-blur-sm px-2 py-1 rounded">OPENAI_API_KEY</code> correctly in Render</li>
                 <li>Ensure the key has access to GPT models (like gpt-4o)</li>
@@ -271,11 +271,11 @@ export default function DocumentationPage() {
             </div>
             
             <div className="border-b border-gray-200/50 pb-4">
-              <h3 className="font-bold text-lg mb-2">Voice isn't working.</h3>
+              <h3 className="font-bold text-lg mb-2">Voice isn&apos;t working.</h3>
               <ul className="list-disc ml-6 space-y-1">
                 <li>Check your browser permissions for microphone access</li>
-                <li>Make sure you're pressing and holding the mic button</li>
-              </ul>
+                <li>Make sure you&apos;re pressing and holding the mic button</li>
+              </ul> 
             </div>
             
             <div className="border-b border-gray-200/50 pb-4">
@@ -311,7 +311,7 @@ export default function DocumentationPage() {
 
         {/* Footer */}
         <div className="text-center pt-6 border-t border-gray-200">
-          <p className="text-xl font-medium text-indigo-600">Let's get your AI companion talking!</p>
+          <p className="text-xl font-medium text-indigo-600">Let&apos;s get your AI companion talking!</p>
           <div className="mt-8 flex justify-center space-x-4">
             <motion.div
               whileHover={{ y: -2 }}

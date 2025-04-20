@@ -62,10 +62,10 @@ export default function Page() {
             <h2 className="text-3xl font-bold text-gray-900">🚧 Let's Be Honest, You've Probably Tried Already</h2>
             <div className="space-y-4 text-lg">
               <p className="text-gray-700">
-                You've opened a Whisper demo and watched it break. You've written a prompt that works once and forgets everything after. You've spent hours tweaking UI state or stuck wondering how to send audio through a socket.
+                You&apos;ve opened a Whisper demo and watched it break. You&apos;ve written a prompt that works once and forgets everything after. You&apos;ve spent hours tweaking UI state or stuck wondering how to send audio through a socket.
               </p>
               <p className="text-gray-700">
-                It's not hard because you're doing it wrong. It's hard because it's fragmented, undocumented, and constantly changing.
+                It&apos;s not hard because you&apos;re doing it wrong. It&apos;s hard because it&apos;s fragmented, undocumented, and constantly changing.
               </p>
               <p className="text-gray-700">
                 This toolkit is built from <strong className="text-indigo-600">real-world battle scars</strong> and turns all that chaos into a deployable, modular system you can build on.
@@ -150,7 +150,7 @@ export default function Page() {
                 This toolkit is for builders who want to ship something real, without wasting weeks duct-taping together APIs and hoping it'll scale.
               </p>
               <p className="text-gray-700">
-                Whether you're creating a personal project or launching your own AI-powered product, <strong className="text-indigo-600">this gets you to launch fast.</strong>
+                Whether you&apos;re creating a personal project or launching your own AI-powered product, <strong className="text-indigo-600">this gets you to launch fast.</strong>
               </p>
             </div>
           </div>
@@ -236,7 +236,7 @@ export default function Page() {
 
         {/* Footer */}
         <div className="text-sm text-gray-600 text-center pt-6 border-t border-gray-200">
-          Built by <Link href="https://github.com/Danejw" className="text-indigo-600 font-bold hover:underline">Danejw</Link> -- a dev who's shipped real-time AI systems across XR, voice, and companion tools.
+          Built by <Link href="https://github.com/Danejw" className="text-indigo-600 font-bold hover:underline">Danejw</Link> -- a dev who&apos;s shipped real-time AI systems across XR, voice, and companion tools.
         </div>
       </div>
     </div>
