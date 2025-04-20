@@ -311,7 +311,7 @@ export default function DocumentationPage() {
 
         {/* Footer */}
         <div className="text-center pt-6 border-t border-gray-200">
-          <p className="text-xl font-medium text-indigo-600">Here&apos;s the original Knolia website</p>
+          <p className="text-xl font-medium text-indigo-600">Try Knolia, a voice-enabled AI companion built from this toolkit</p>
           <div className="mt-8 flex justify-center space-x-4">
             <motion.div
               whileHover={{ y: -2 }}

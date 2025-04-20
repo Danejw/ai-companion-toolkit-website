@@ -36,6 +36,13 @@ export default function Navigation() {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-6">
           <Link
+            href="/knolia"
+            className={`hover:text-indigo-500 transition ${pathname === "/knolia" ? "text-indigo-500 font-medium" : "text-gray-600"
+              }`}
+          >
+            Try Knolia
+          </Link>
+          <Link
             href="/documentation"
             className={`hover:text-indigo-500 transition ${
               pathname === "/documentation" ? "text-indigo-500 font-medium" : "text-gray-600"
@@ -43,6 +50,7 @@ export default function Navigation() {
           >
             Docs
           </Link>
+
           <Link 
             href="https://danejw.gumroad.com/l/AI-Companion-Toolkit" 
             className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-4 py-2 rounded-lg hover:from-indigo-700 hover:to-purple-700 transition shadow-sm"
