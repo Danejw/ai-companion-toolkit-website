@@ -318,7 +318,7 @@ export default function DocumentationPage() {
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
               <Link 
-                href="/hub"
+                href="https://www.knolia.org/"
                 className="inline-flex items-center px-5 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg hover:from-indigo-700 hover:to-purple-700 transition shadow-lg"
               >
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
