@@ -38,7 +38,7 @@ export default function DocumentationPage() {
           </div>
             
           <div className='mx-8'>
-            <h3 className="text-xl font-semibold mt-8 mb-3">What's Inside</h3>
+            <h3 className="text-xl font-semibold mt-8 mb-3">What&lsquo;s Inside</h3>
             <div className="grid md:grid-cols-3 gap-4 justify-items-center">
               <motion.div 
                 initial={{ opacity: 0, y: 10 }}
