@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "AI Companion Toolkit",
-  description: "A toolkit for building your own voice-enabled AI companion",
+  description: "The toolkit for building your own voice-enabled AI companion fast",
   manifest: "/manifest.json",
 };
 
