@@ -180,7 +180,7 @@ export default function Page() {
                 <div className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 shrink-0 shadow-md">
                   {i + 1}
                 </div>
-                <span className="text-gray-700">{item.replace("user_config.json", "<code>user_config.json</code>")}</span>
+                <span className="text-gray-700">{item.replace("user_config.json", "user_config.json")}</span>
               </motion.div>
             ))}
           </div>
