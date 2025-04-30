@@ -1,0 +1,50 @@
+# AI Companion Toolkit - llms.txt
+
+> The AI Companion Toolkit is a customizable, full-stack framework for building intelligent, voice-enabled AI companions. It includes a Next.js frontend, FastAPI backend, and tooling for memory, personality, orchestration, and voice interaction. Knolia is one example built with this toolkit.
+
+## Documentation
+
+- [Toolkit Overview](https://www.knolia.org/welcome)
+  - End-to-end documentation to set up, configure, and deploy your own AI companion
+  - Guides for frontend (Next.js), backend (FastAPI), deployment (Render/Vercel), and user customization
+
+## Key Components
+
+- **Frontend**
+  - Built with Next.js for real-time interaction and voice input/output
+  - Integrates WebSockets for streaming audio and context updates
+
+- **Backend**
+  - FastAPI service with endpoints for chat orchestration, memory management, transcription, and TTS
+  - Pluggable tools architecture for flexible agent capabilities
+
+- **User Configuration**
+  - A `user_config.json` file for customizing name, voice, memory options, and agent behavior
+
+## Features
+
+- Real-time voice-to-voice interaction
+- Graph-based memory and retrieval with semantic edge linking
+- Emotional tone detection and adaptive response style
+- Agent personality shaping using OCEAN and MBTI inputs
+- OpenAI integration with TTS and GPT-based context processing
+
+## Deployment
+
+- Backend: Render deployment guide using `uvicorn`, Python, and environment variables
+- Frontend: Vercel deployment guide with `.env` and backend integration
+
+## Example Project
+
+- [Knolia](https://www.knolia.org) — a production example of the Toolkit in action as a reflective journal companion
+
+## Access
+
+- Toolkit Repository: [https://github.com/Danejw/AI-Companion-Toolkit](https://github.com/Danejw/AI-Companion-Toolkit)
+- Docs: [https://www.knolia.org/welcome](https://www.knolia.org/welcome)
+
+## Contact
+
+For issues, contributions, or collaboration:
+- GitHub Issues: [https://github.com/Danejw/AI-Companion-Toolkit/issues](https://github.com/Danejw/AI-Companion-Toolkit/issues)
+
